@@ -28,12 +28,12 @@ let observer = messages.orderBy('timestamp').onSnapshot(docSnapshot => {
 });
 
 process.stdin.on('data', input => {
-	let texto = input.toString();
+	let text = input.toString();
 
 	messages.add({
 		from: process.argv[2],
 		timestamp: new Date().getTime(),
-		message: texto
+		message: text
 	}).then().catch(console.log);
 });
 
