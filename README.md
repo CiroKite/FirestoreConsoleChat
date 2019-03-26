@@ -2,14 +2,15 @@
 Testing Firebase's Firestore with a console nodejs chat app
 
 
-#### How to use
+## How to use
 
-1) Install [NodeJS and npm](https://nodejs.org/en/)
+1) Open the [Firebase Console](https://console.firebase.google.com/) and create a new project
+1) Install [NodeJS and npm](https://nodejs.org/en/
 2) You'll need a [service account](https://cloud.google.com/compute/docs/authentication)
     
-    To use the Firebase Admin SDK on your own server (or any other Node.js environment), use a service account. Go to [IAM & admin > Service accounts in the Cloud Platform Console](https://console.cloud.google.com/iam-admin/serviceaccounts). Generate a new private key and save the JSON file.
+    Go to [IAM & admin > Service accounts in the Cloud Platform Console](https://console.cloud.google.com/iam-admin/serviceaccounts). Generate a new private key and save the JSON file
     
-    For this project, I named it serviceAccountKey.json.
+    For this project, I named it serviceAccountKey.json
 3) Open a terminal 
     
     ```
